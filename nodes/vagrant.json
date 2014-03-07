@@ -1,0 +1,8 @@
+{"run_list":[
+  "recipe[apt]", 
+  "recipe[users-sqore]", 
+  "recipe[rvm-sqore]", 
+  "recipe[mongodb-sqore]", 
+  "recipe[jenkins::master]",
+  "recipe[nginx-sqore]"
+]}
